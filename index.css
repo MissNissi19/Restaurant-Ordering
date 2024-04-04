@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    
+} 
+
+#header {
+    height: 200px;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1515711127392-4c62a99c3393?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 100%;
+       
+}
+
+#meniu {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+
+.parent {
+    display: flex;                  
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 2px solid grey;
+    align-items: center;
+    justify-content: center;
+}
+
+.emojiHtml {
+    font-size: 40px;
+    flex-direction: column;
+    flex-grow: 1;     
+}
+
+.htmlClass {
+    flex-direction: column;
+    flex-grow: 8;
+}
+
+#btn-complete-order {
+   background-color: green;
+   color: white; 
+   border-radius: 5px;
+   bottom: 10px;
+    
+}
+#pay-btn {
+    background-color: green;
+    color: whitesmoke;
+}
+
+.btnClass {
+    height: 100%;
+    flex-grow: 1;
+}
+
+.btnClass  button {
+    border-radius: 50%;
+}
+
+#yourOrder{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+#titleOrder {
+    width: 50%;
+    margin: auto;
+}
+
+.flex-small {
+    flex-grow: 1;
+}
+
+.flex-large {
+    flex-grow: 8;
+    align-self: center;
+    text-decoration: none;
+    color: grey;
+}
+
+.shoppingCart {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+#form {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 150px;
+    width: 400px;
+    font-size: 25px;
+    
+}
