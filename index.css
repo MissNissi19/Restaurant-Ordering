@@ -1,10 +1,25 @@
 body {
     margin: 0;
-    
+    font-family: "Manrope", sans-serif;
+    background: #a8ff78;  
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  
+    background: linear-gradient(to right, #78ffd6, #a8ff78); 
 } 
 
+h1 {
+    margin-bottom: 1em;
+    padding: 0.5em 1em;
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+#main{
+    box-sizing: border-box;
+    padding: 2em;
+}
+
 #header {
-    height: 200px;
+    height: 300px;
     width: 100%;
     background-image: url("https://images.unsplash.com/photo-1515711127392-4c62a99c3393?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
@@ -20,7 +35,7 @@ body {
        
 }
 
-#meniu {
+#menu {
    display: flex;
    flex-direction: column;
    width: 100%;
@@ -36,9 +51,9 @@ body {
 }
 
 .emojiHtml {
-    font-size: 40px;
+    font-size: 3em;
     flex-direction: column;
-    flex-grow: 1;     
+    flex-grow: 0.5;     
 }
 
 .htmlClass {
@@ -51,6 +66,7 @@ body {
    color: white; 
    border-radius: 5px;
    bottom: 10px;
+   padding: 15px;
     
 }
 #pay-btn {
@@ -65,16 +81,20 @@ body {
 
 .btnClass  button {
     border-radius: 50%;
+    width: 3em;
+    height: 2.5em;
+    background-color: whitesmoke;
 }
 
 #yourOrder{
     display: inline-flex;
     flex-direction: column;
+    
 }
 
 #titleOrder {
-    width: 50%;
-    margin: auto;
+    width: 60%;
+    padding: 15px;
 }
 
 .flex-small {
